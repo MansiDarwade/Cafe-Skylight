@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: cursive;
+    color: gold;
+}
+.header{
+    min-height: 50px;
+    width: 100%;
+    position: fixed;
+}
+.header-link{
+    float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 50px;
+    padding: 12px;
+}
+a:hover{
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+}
+.banner_image{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(Cafe.jpg)no-repeat center;
+    background-size: 100% 100%;
+}
+.inner_banner_image{
+    padding-top: 12%;
+    width: 80%;
+    margin: auto;
+}
+.banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow: hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,0.7);
+    max-height: 960px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: gold;
+}
+.content{
+    text-align: center;
+    max-height: 400px;
+    padding: 50px ;
+    margin: 100px;
+}
+p{
+    font-size: 30px;
+    color: gold;
+}
+.row{
+    display: flex;
+}
+.col{
+   float: left;
+   width: 33.33%;
+   padding: 5px;
+}
+img{
+    height: 300px;
+    border-radius: 20px;
+}
+marquee{
+    color: red;
+    font-size: 30px;
+    padding-bottom: 7px;
+    background-color: cornsilk;
+    width: 100%;
+}
+table{
+   border-collapse: collapse;
+   width: 70%;
+   padding-bottom: 5px;
+}
+th,td{
+    border: 2px solid gold;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+th{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+}
+tr:hover{
+    background-color: whitesmoke;
+}
+.bg{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(bg.jpg)no-repeat center;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
